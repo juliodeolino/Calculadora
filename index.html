@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/script.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" name='display' id="display-number">
+            <div class="buttons-container"></div>
+            <button class="button" onclick="add_parameter('(')">(</button>
+            <button class="button" onclick="add_parameter(')')">)</button>
+            <button class="button" onclick="buttonAC()">AC</button>
+            <button class="button" onclick="percentage()">%</button>
+
+            <button class="button" onclick="add_parameter(7)">7</button>
+            <button class="button" onclick="add_parameter(8)">8</button>
+            <button class="button" onclick="add_parameter(9)">9</button>
+            <button class="button" onclick="add_parameter('/')">/</button>
+
+            <button class="button" onclick="add_parameter(4)">4</button>
+            <button class="button" onclick="add_parameter(5)">5</button>
+            <button class="button" onclick="add_parameter(6)">6</button>
+            <button class="button" onclick="add_parameter('*')">x</button>
+
+            <button class="button" onclick="add_parameter(1)">1</button>
+            <button class="button" onclick="add_parameter(2)">2</button>
+            <button class="button" onclick="add_parameter(3)">3</button>
+            <button class="button" onclick="add_parameter('-')">-</button>
+
+            <button class="button" onclick="add_parameter(0)">0</button>
+            <button class="button" onclick="add_parameter('.')">.</button>
+            <button class="button" onclick="calculate()">=</button>
+            <button class="button" onclick="add_parameter('+')">+</button>
+        </div>
+    </div>
+</body>
+</html>
